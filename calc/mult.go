@@ -4,6 +4,5 @@ package calc
 func Mult(x, y int) int {
 	result := 1
 
-	// TODO
 	return result
 }
