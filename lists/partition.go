@@ -8,6 +8,8 @@ func Partition(list []int, key int) ([]int, []int) {
 	l1 := append([]int{}, list...)
 	l2 := append([]int{}, list...)
 
-	// TODO
-	return l1, l2
+	x := FilterLess(l1, key)
+	y := FilterGreater(l2, key)
+
+	return x, y
 }
